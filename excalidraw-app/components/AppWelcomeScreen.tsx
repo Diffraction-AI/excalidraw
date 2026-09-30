@@ -37,9 +37,8 @@ export const AppWelcomeScreen: React.FC<{
       <>
         {t("welcomeScreen.app.center_heading")}
         <br />
-        {t("welcomeScreen.app.center_heading_line2")}
-        <br />
-        {t("welcomeScreen.app.center_heading_line3")}
+        <span>{t("welcomeScreen.app.center_heading_line2")}</span>
+        <span>{t("welcomeScreen.app.center_heading_line3")}</span>
       </>
     );
   }
